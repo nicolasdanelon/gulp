@@ -1,0 +1,28 @@
+
+https://www.npmjs.com/package/gulp-nodemon
+https://www.npmjs.com/package/gulp-develop-server
+https://github.com/narirou/gulp-develop-server
+
+npm install gulp --save-dev
+
+/* COMPRESS IMAGES */
+npm install gulp-changed --save-dev
+npm install gulp-imagemin --save-dev
+
+/* HTML */
+npm install gulp-minify-html --save-dev 
+
+/* CSS */
+npm install gulp-autoprefixer --save-dev 
+npm install gulp-minify-css --save-dev 
+
+/* JS */
+npm install gulp-concat --save-dev 
+npm install gulp-strip-debug --save-dev 
+npm install gulp-uglify --save-dev
+
+/* SASS */
+npm install gulp-sass --save-dev
+npm install gulp-clean --save-dev
+npm install gulp-file-include --save-dev
+npm install gulp-size --save-dev
