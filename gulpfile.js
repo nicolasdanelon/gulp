@@ -2,17 +2,17 @@
 var gulp = require('gulp'); 
 
 // include plug-ins
-var changed = require('gulp-changed');					//	
-var imagemin = require('gulp-imagemin');				//	
-var concat = require('gulp-concat');					//	
-var stripDebug = require('gulp-strip-debug');			//	
-var uglify = require('gulp-uglify');					//	
-var minifyHTML = require('gulp-minify-html');			//	
-var jshint = require('gulp-jshint');					//	
-var sass = require('gulp-ruby-sass');				//////	
-var autoprefixer = require('gulp-autoprefixer');		//	
-var minifycss = require('gulp-minify-css');				//	
-var rename = require('gulp-rename');					//	
+var changed = require('gulp-changed');
+var imagemin = require('gulp-imagemin');
+var concat = require('gulp-concat');
+var stripDebug = require('gulp-strip-debug');
+var uglify = require('gulp-uglify');
+var minifyHTML = require('gulp-minify-html');
+var jshint = require('gulp-jshint');
+var sass = require('gulp-ruby-sass'); //
+var autoprefixer = require('gulp-autoprefixer');
+var minifycss = require('gulp-minify-css');
+var rename = require('gulp-rename');
 var size = require('gulp-size');
 
 var tasks = ['imagemin', 'scripts', 'styles', 'htmlpage', 'jshint'];
